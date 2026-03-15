@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Hi, I'm Abhinav</h1>
+        <p>Python & Django Web Developer | Building modern web applications</p>
+        <a href="/projects/" class="btn">View Projects</a>
+    </div>
+</section>
+
+<section class="cards">
+    <div class="card">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Django</li>
+            <li>HTML & CSS</li>
+            <li>Bootstrap</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>About Me</h2>
+        <p>Student learning web development and building real projects for clients.</p>
+    </div>
+</section>
+
+<section class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Django + HTML/CSS</p>
+        </div>
+        <div class="project-card">
+            <h3>Blog Website</h3>
+            <p>Python + Django</p>
+        </div>
+        <div class="project-card">
+            <h3>To-Do App</h3>
+            <p>Python console application</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: abhinav121316@email.com</p>
+    <p>Or fill the contact form below:</p>
+    <a href="/contact/" class="btn">Go to Contact Page</a>
+</section>
+
+{% endblock %}
